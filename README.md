@@ -1,7 +1,8 @@
 # node-gd-bmp
 light and high speed and 100% js implement graphical library, it can running in any platform,
 BUT only support bmp 24bit format, internal contains 3 fonts
-# demo
+
+## demo
 ```javascript
 var http = require('http');
 var fs = require('fs');
@@ -109,7 +110,16 @@ http.createServer(function (req,res) {
 
 console.log('localhost:3000');
 ```
-# API
+
+## Installation
+
+intall with npm:
+
+```bash
+npm install gd-bmp --save
+```
+
+## API
 **获得对象的两种方式：**
 * 构造函数，创建指定宽高的图片对象(初始化为一张全黑的图片)
 ```javascript
